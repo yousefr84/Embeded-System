@@ -1,0 +1,12 @@
+# Build outputs
+/build/
+greenhouse
+*.o
+*.elf
+
+# Editor / OS
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/

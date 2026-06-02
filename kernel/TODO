@@ -1,0 +1,24 @@
+
+NOTE:
+	The items are not in any order just in the order I cam up with them ;)
+
+env/*:
+
+	* Look into the timer code on all environments, there are some edge
+	  cases that will make the code behave strangely :/
+
+	* Figure out why the MSP430 environment breaks when taking overflow
+	  into account in the timer_get() function, until then we will take
+	  the long way around and just generate those extra interrupts.
+
+	* Draw out guidelines for pre-emptive interrupts. This will allow the
+	  kernel to leave protected mode while doing some things, such as
+	  setting up variables and copying memory.
+
+env/arm7:
+
+	* Figure out how to do this sligthly more portable? Or should we just live
+	  with separate runtimes for the different models... Proabably the only
+	  "sane" solution :/
+
+	* Fix the AIC code so that nested interrupts are supported...
