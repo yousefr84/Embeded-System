@@ -1,6 +1,7 @@
 # Build outputs
 /build/
-greenhouse
+/sample/greenhouse/posix/
+/greenhouse
 *.o
 *.elf
 
