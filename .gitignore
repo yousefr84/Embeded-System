@@ -1,11 +1,7 @@
-# Build outputs
-/build/
-/sample/greenhouse/posix/
-/greenhouse
+/tt/example/controller/posix/
 *.o
 *.elf
 
-# Editor / OS
 *.swp
 *~
 .DS_Store

@@ -9,7 +9,7 @@
 #ENV=mips
 #ENV=msp430
 #ENV=pic18
-#ENV=posix
+ENV=posix
 #ENV=posix_srp
 #ENV=skel
 
